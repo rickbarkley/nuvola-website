@@ -6,6 +6,10 @@ NuvolaWebsite::Application.routes.draw do
   get "pages/services"
 
   get "pages/contact"
+  match '/about', :to => 'pages#about'
+  match '/contact', :to => 'pages#contact'
+  match '/services', :to => 'pages#services'
+  
 
 root :to => 'pages#home'
 

@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NuvolaWebsite</title>
+  <title> <%= title %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<header>
+		<%= link_to image_tag("6_13_new_header.png", alt: "Nuvola Networks"), 'www.nuvola-networks.com' %>
+    </header>  
+		<nav class="navbar navbar-inverse">
+			<div class "navbar-inner">
+				<div class = "container">
+            <ul class="nav pull-left">
+              <li><%= link_to "Home",    'home' %></li>
+              <li><%= link_to "About Us",    'about' %></li>
 
-<%= yield %>
-
-</body>
+			<ul class="nav">
+			  <li class="dropdown">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+			      Products/Services
+			      <b class="caret"></b>
+			    </a>
+			    <ul class="dropdown-menu">
+				  <li><a href="#">e-Learning </a></li>
+				  <li><a href="#">Web Design </a></li>
+				  <li><a href="#">Custom App Development </a></li>
+				  <li><a href="#">Cloud Services/Consulting </a></li>
+				  <li><A href="#">Audio & Video Production </a></li>
+              </ul>
+			</li>
+			  <li><%= link_to "Contact Us",    'contact' %></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    <div class="container">
+      <%= yield %>
+	<%= render 'layouts/footer' %>
+	<subfooter>
+		<div class="pagination-centered">
+		<%= link_to image_tag("N_cloud_small.png", alt: "Nuvola Networks"), 'http://www.nuvola-networks.com' %>	
+	</subfooter>
+	</div>	
+    </div>
+  </body>
 </html>

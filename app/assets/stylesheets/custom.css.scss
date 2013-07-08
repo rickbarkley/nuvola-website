@@ -1,0 +1,116 @@
+@import "bootstrap";
+
+.container {
+	width: 950px;
+}
+
+body {
+	background: #fff;
+	background-image: url("brushed_steel.jpg");
+    width: 100%;
+	hight: 400px;
+	padding-top: 15px;
+}
+
+header img{
+margin-top: 10px;
+Display: block;
+margin-left: auto;
+margin-right: auto;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+box-shadow: 10px 0px 5px 2px #888;
+
+}
+section {
+  overflow: auto;
+}
+
+
+nav {
+  background: #4c4c4c; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: -moz-linear-gradient(top,  #4c4c4c 0%, #595959 12%, #666666 25%, #474747 39%, #2c2c2c 50%, #000000 51%, #111111 60%, #2b2b2b 76%, #1c1c1c 91%, #131313 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(12%,#595959), color-stop(25%,#666666), color-stop(39%,#474747), color-stop(50%,#2c2c2c), color-stop(51%,#000000), color-stop(60%,#111111), color-stop(76%,#2b2b2b), color-stop(91%,#1c1c1c), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4c4c4c 0%,#595959 12%,#666666 25%,#474747 39%,#2c2c2c 50%,#000000 51%,#111111 60%,#2b2b2b 76%,#1c1c1c 91%,#131313 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 ); /* IE6-8 */
+  box-shadow: 10px 5px 5px 2px #888;
+  width: 950px;
+  Display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+nav ul li {
+font-size: 125%;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  box-shadow: 10px 5px 10px 2px #888;
+}
+
+.center h1 {
+  font-size: 2.2em !important;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+.center h2 {
+font-size: 1.3em;
+}
+.btn {
+text-align: center !important;
+box-shadow: 10px 10px 5px #888888 !important;
+margin-top: 20px !important;
+}
+
+/* footer */
+
+footer {
+  margin-top: 35px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #000;
+  box-shadow: 0px 0px 0px #efefef !important;
+}
+
+footer a {
+  color: #555;
+}  
+
+footer a:hover { 
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 10px;
+  font-size: 125%;
+}
+
+subfooter img {
+margin-top: 40px !important;
+
+
+}
+
