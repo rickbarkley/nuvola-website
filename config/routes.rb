@@ -9,7 +9,7 @@ NuvolaWebsite::Application.routes.draw do
   match '/about', :to => 'pages#about'
   match '/contact', :to => 'pages#contact'
   match '/services', :to => 'pages#services'
-  
+  match '/home', :to => 'pages#home'
 
 root :to => 'pages#home'
 
