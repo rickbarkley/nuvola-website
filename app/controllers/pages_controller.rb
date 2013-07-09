@@ -14,4 +14,25 @@ class PagesController < ApplicationController
   def contact
       @title = "Contact Us"
   end
+  
+  def elearning
+    @title = "e-Learning"
+  end
+  
+  def av
+    @title = "A/V Production"
+  end
+  
+  def app
+    @title = "App Development"
+  end
+  
+  def cloud
+    @title = "cloud Services"
+  end
+  
+  def web
+    @title = "Web Design"
+  end
+  
 end

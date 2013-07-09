@@ -17,7 +17,7 @@
 			<div class "navbar-inner">
 				<div class = "container">
             <ul class="nav pull-left">
-              <li><%= link_to "Home",    'root_path' %></li>
+              <li><%= link_to "Home",    'home' %></li>
               <li><%= link_to "About Us",    'about' %></li>
 
 			<ul class="nav">
@@ -27,11 +27,11 @@
 			      <b class="caret"></b>
 			    </a>
 			    <ul class="dropdown-menu">
-				  <li><a href="#">e-Learning </a></li>
-				  <li><a href="#">Web Design </a></li>
-				  <li><a href="#">Custom App Development </a></li>
-				  <li><a href="#">Cloud Services/Consulting </a></li>
-				  <li><A href="#">Audio & Video Production </a></li>
+				  <li><%= link_to "e-Learning", 'elearning' %></li>
+				  <li><%= link_to "Web Design", 'web' %></li>
+				  <li><%= link_to "Custom App Development", 'app' %></li>
+				  <li><%= link_to "Cloud Services/Consulting", 'cloud' %></li>
+				  <li><%= link_to "Audio/Video Production", 'av' %></li>
               </ul>
 			</li>
 			  <li><%= link_to "Contact Us",    'contact' %></li>
@@ -44,7 +44,7 @@
 	<%= render 'layouts/footer' %>
 	<subfooter>
 		<div class="pagination-centered">
-		<%= link_to image_tag("N_cloud_small.png", alt: "Nuvola Networks"), 'http://www.nuvola-networks.com' %>	
+		<%= link_to image_tag("N_cloud_small.png", alt: "Nuvola Networks"), 'home' %>	
 	</subfooter>
 	</div>	
     </div>
