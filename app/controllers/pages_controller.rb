@@ -14,6 +14,7 @@ class PagesController < ApplicationController
   def contact
       @title = "Contact Us"
   end
+# product and services pages
   
   def elearning
     @title = "e-Learning"
@@ -34,5 +35,20 @@ class PagesController < ApplicationController
   def web
     @title = "Web Design"
   end
+
+# elearning pages
+
+  def coursedev
+    @title = "Course Development"
+  end
+    
+  def vle
+    @title = "VLE"
+  end
+    
+  def consult
+    @title = "e-Learning Consultation" 
+  end
+  
   
 end

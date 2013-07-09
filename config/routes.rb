@@ -11,6 +11,11 @@ NuvolaWebsite::Application.routes.draw do
   get "pages/services"
   get "pages/contact"
   
+  #elearning pages
+  get "pages/coursedev"
+  get "pages/vle"
+  get "pages/consult"
+  
   match '/about', :to => 'pages#about'
   match '/contact', :to => 'pages#contact'
   match '/services', :to => 'pages#services'
@@ -20,6 +25,9 @@ NuvolaWebsite::Application.routes.draw do
   match '/av', :to => 'pages#av'
   match '/elearning', :to => 'pages#elearning'
   match '/web', :to => 'pages#web'
+  match '/vle', :to => 'pages#vle'
+  match '/consult', :to => 'pages#consult'
+  match '/coursedev', :to => 'pages#coursedev'
 
 root :to => 'pages#home'
 
