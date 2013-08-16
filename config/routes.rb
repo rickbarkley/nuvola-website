@@ -28,6 +28,7 @@ NuvolaWebsite::Application.routes.draw do
   match '/vle', :to => 'pages#vle'
   match '/consult', :to => 'pages#consult'
   match '/coursedev', :to => 'pages#coursedev'
+    match'/ourwork', :to => 'pages#videoexamples'
 
 root :to => 'pages#home'
 

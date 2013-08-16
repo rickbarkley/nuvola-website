@@ -49,6 +49,12 @@ class PagesController < ApplicationController
   def consult
     @title = "e-Learning Consultation" 
   end
+    
+    # A/V pages
+    
+    def videoexamples
+        @title = "Our Work"
+        end
   
   
 end
