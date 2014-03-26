@@ -16,19 +16,19 @@ NuvolaWebsite::Application.routes.draw do
   get "pages/vle"
   get "pages/consult"
   
-  match '/about', :to => 'pages#about'
-  match '/contact', :to => 'pages#contact'
-  match '/services', :to => 'pages#services'
-  match '/home', :to => 'pages#home'
-  match '/cloud', :to => 'pages#cloud'
-  match '/app', :to => 'pages#app'
-  match '/av', :to => 'pages#av'
-  match '/elearning', :to => 'pages#elearning'
-  match '/web', :to => 'pages#web'
-  match '/vle', :to => 'pages#vle'
-  match '/consult', :to => 'pages#consult'
-  match '/coursedev', :to => 'pages#coursedev'
-    match'/ourwork', :to => 'pages#videoexamples'
+  get '/about' => 'pages#about'
+  get '/contact' => 'pages#contact'
+  get '/services'  => 'pages#services'
+  get '/home' => 'pages#home'
+  get '/cloud' => 'pages#cloud'
+  get '/app' => 'pages#app'
+  get '/av' => 'pages#av'
+  get '/elearning' => 'pages#elearning'
+  get '/web'=> 'pages#web'
+  get '/vle' => 'pages#vle'
+  get '/consult' => 'pages#consult'
+  get '/coursedev' => 'pages#coursedev'
+    match'/ourwork' => 'pages#videoexamples'
 
 root :to => 'pages#home'
 
